@@ -67,8 +67,6 @@ void __attribute__((noinline)) update_led_strip(color* colors, uint16_t number_o
 		"nop								\n\t"
 		"nop								\n\t"
 		"nop								\n\t"
-	#elif F_CPU != 8000000
-	#error "frequency not supported"
 	#endif
 		"brcs	.+2							\n\t"
 		//set outout low
@@ -169,8 +167,6 @@ void __attribute__((noinline)) update_led_strip(color* colors, uint16_t number_o
 		"nop											\n\t"
 		"nop											\n\t"
 		"nop											\n\t"
-		#elif F_CPU != 8000000
-		#error "frequency not supported"
 		#endif
 		"brcs	.+2										\n\t"
 		//set outout low

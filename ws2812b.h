@@ -13,7 +13,7 @@
 #include <util/delay.h>
 
 #if ( __AVR_ARCH__ >= 100 )
-//if on XMEGA og newer Atmel AVR chips
+//if the processor is XMEGA or megaAVR 0-series 
 //------------------------------------
 #define LED_PORT	PORTA
 #define LED_PIN		7

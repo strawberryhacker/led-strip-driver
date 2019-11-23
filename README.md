@@ -2,6 +2,9 @@
 
 [![Build Status](https://img.shields.io/badge/Supported%20devices-ATmega%200--series%2C%20XMEGA%2C%20ATmega-yellow)](https://travis-ci.com/username/projectname)
 
+## Note
+This library relies on a operating frequency of either 8 MHz, 16 MHz or 20 MHz.
+
 This is a simple ws2812b driver. This means that the CPU only can drive on led strip at a time. This library also supports 
 newer ATmega chip such as the ATmega4809, and the XMEGA series of microcontrollers. These microcontrollers runs a slightliy different instruction set, and therefor the assembly code will be slightly different. There is a define statement that checks which controller is being used. Unused code will not be uploaded to the board, so there is no need for deleting the part that you dont need.
 

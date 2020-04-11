@@ -1,4 +1,4 @@
-# WS2812b driver
+# LED strip driver
 
 [![Build Status](https://img.shields.io/badge/Supported%20devices-ATmega%200--series%2C%20XMEGA%2C%20ATmega-yellow)](https://travis-ci.com/username/projectname)
 
